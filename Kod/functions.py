@@ -110,10 +110,12 @@ def qrCodeOlustur(sinifInput,saEleman):
         qr.make(fit=True)
         try:
             img = qr.make_image(fill='black', back_color='white')
+            img = img.resize((375,273)) #Gergin basım oldupu için eni boyundan biraz fazla olmalı
             img.save("{}/{}.png".format(qrPath,i[-5:-1])) #QRCODE jpg'YE BASILDI.NUMERIK ISIM VERILDI.# -5 KISMI COK ONEMLI.yoksa liste basa donup override ediyor.
         except FileNotFoundError:
             klasorYoksaAc('qrcodes')
             img = qr.make_image(fill='black', back_color='white')#dosya yoksa qrcodes dosyası aciyor.
+            img = img.resize((375, 273))#Gergin basım oldupu için eni boyundan biraz fazla olmalı
             img.save("{}/{}.png".format(qrPath, i[-5:-1]))#INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
 
 
@@ -135,7 +137,7 @@ def qrCodeEkle():
     for imgIndex in qrCodePathContents: #QR CODE'LAR ICINDE FOR ACILDI
         print(imgIndex)
         qrCode = Image.open('{}'.format(qrCodePath + "/{}".format(imgIndex))) #QR CODE'LARA ERISIM
-        temelTaslak.paste(qrCode, (680, 200)) #BIRLESIM
+        temelTaslak.paste(qrCode, (630, 200)) #BIRLESIM
 
         try:
             temelTaslak.save('{}'.format(qrPaperPath) +'/P{}'.format(imgIndex), quality=4000) # KAYIT,BURASI IKI KERE CALISIRSA .PNG.JPG BIRLESIK UZANTI OLUSUYOR.
@@ -191,7 +193,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
         eldivenTurEtiket.text((50, 150), "{}".format(eldivenTurUygun), font=mainFont, fill=(0, 0, 0))
 
         sinifEtiket = ImageDraw.Draw(img) #USTUNE YAZACAGIMIZ ICIN DRAW FONKSIYONU
-        sinifEtiket.text((600, 281), "{}".format(classType), font=mainFont, fill=(0, 0, 0))#POZISYON,FONT VE RENK AYARLAMALARI
+        sinifEtiket.text((588, 281), "{}".format(classType), font=mainFont, fill=(0, 0, 0))#POZISYON,FONT VE RENK AYARLAMALARI
 
         tarihEtiket = ImageDraw.Draw(img)
         tarihEtiket.text((480, 373), "{}/{}".format(ayUygun,yilUygun), font=mainFont, fill=(0, 0, 0))#USTTEN BOSLUK-SOLDAN BOSLUK
