@@ -311,7 +311,7 @@ class Ui_MainWindow(object):
 
         fonksiyon.seriNoOlustur(ulkeInput,partiInput,sinifInput,partiElemanInput,sizeInput,saInput)
         fonksiyon.qrCodeOlustur(sinifInput,saInput)
-        fonksiyon.qrCodeEkle()
+        fonksiyon.qrCodeEkle(saInput)
         fonksiyon.yaziResimBirlesme(sinifInput,sizeInput,lotInput,saInput)
 
         self.yukleniyorKapa()

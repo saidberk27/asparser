@@ -120,8 +120,12 @@ def qrCodeOlustur(sinifInput,saEleman):
 
 
 
-def qrCodeEkle():
-    temelTaslak = Image.open('etiketyeni.jpg')#TEMEL TASLAK ACILDI
+def qrCodeEkle(saEleman):
+    if(saEleman == "s" or saEleman == "S"):
+        temelTaslak = Image.open('etiket-standart.jpg')#TEMEL TASLAK ACILDI
+    elif(saEleman == "a" or saEleman == "A"):
+        temelTaslak = Image.open('etiket-arc.jpg')#TEMEL TASLAK ACILDI
+
     qrCodePath = os.path.abspath(os.getcwd()) + '/qrcodes'
     qrCodePathContents = os.listdir(qrCodePath)
 
@@ -160,25 +164,30 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
     ayUygun = datetime.today().strftime('%m') #AY DATASI
 
     mainFont = ImageFont.truetype('ariblk.ttf', 34)
+    arcDetayFont = ImageFont.truetype('ariblk.ttf', 30)
     maxUseVoltageFont = ImageFont.truetype('ariblk.ttf', 30)
     testFont = ImageFont.truetype('ariblk.ttf', 36)
 
-    if (saEleman == 's' or saEleman == 'S'):  # Eldiven (standart/arc) belirlenmesi
-        eldivenTurUygun = 'ASP-Eİ'
-    elif (saEleman == 'a' or saEleman == 'A'):
-        eldivenTurUygun = 'ASP-EİA'
-#-----------------------------------------------------------------------------
+
+    #-----------------------------------------------------------------------------
     if (classType == "00"): #classType = sinifInput
-        maxUseVoltage = "Max. Use Voltage 500V AC"  # MAX USE VOLTAGE SADECE ETIKETTE
+        maxUseVoltage = "Max. Use Voltage 500 V AC"  # MAX USE VOLTAGE SADECE ETIKETTE
         testInfo = "2.5 kV AC/60 sec"
 
     elif (classType == "0"):
-        maxUseVoltage = "Max. Use Voltage 1000V AC"
+        maxUseVoltage = "Max. Use Voltage 1000 V AC"
         testInfo = "5 kV AC/60 sec"
 
     elif (classType == "4"):
-        maxUseVoltage = "Max. Use Voltage 36000V AC"
+        maxUseVoltage = "Max. Use Voltage 36000 V AC"
         testInfo = "40 kV AC/60 sec"
+
+    if (saEleman == 's' or saEleman == 'S'):  # Eldiven (standart/arc) belirlenmesi
+        eldivenTurUygun = 'ASP-Eİ'
+        arcDetay = ""  # STANDARTTA ARC DETAY YOK
+    elif (saEleman == 'a' or saEleman == 'A'):
+        eldivenTurUygun = 'ASP-EİA'
+        arcDetay = "IESC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
 
     klasorYoksaAc('son')
     klasorTemizle(sonPath)
@@ -193,25 +202,45 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
         eldivenTurEtiket.text((50, 150), "{}".format(eldivenTurUygun), font=mainFont, fill=(0, 0, 0))
 
         sinifEtiket = ImageDraw.Draw(img) #USTUNE YAZACAGIMIZ ICIN DRAW FONKSIYONU
-        sinifEtiket.text((588, 281), "{}".format(classType), font=mainFont, fill=(0, 0, 0))#POZISYON,FONT VE RENK AYARLAMALARI
+        sinifEtiket.text((545, 281), "{}".format(classType), font=mainFont, fill=(0, 0, 0))#POZISYON,FONT VE RENK AYARLAMALARI
 
         tarihEtiket = ImageDraw.Draw(img)
-        tarihEtiket.text((480, 373), "{}/{}".format(ayUygun,yilUygun), font=mainFont, fill=(0, 0, 0))#USTTEN BOSLUK-SOLDAN BOSLUK
+        tarihEtiket.text((432, 373), "{}/{}".format(ayUygun,yilUygun), font=mainFont, fill=(0, 0, 0))#USTTEN BOSLUK-SOLDAN BOSLUK
 
-        lotNoEtiket = ImageDraw.Draw(img)
-        lotNoEtiket.text((625, 558), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))
+        if(saEleman == 's' or saEleman == 'S'):
+            lotNoEtiket = ImageDraw.Draw(img)
+            lotNoEtiket.text((625, 558), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))
 
-        sizeEtiket = ImageDraw.Draw(img)
-        sizeEtiket.text((700, 614), "{}".format(size), font=mainFont, fill=(0, 0, 0)) #SOLBOSLUK,USTBOSLUK
+            sizeEtiket = ImageDraw.Draw(img)
+            sizeEtiket.text((700, 614), "{}".format(size), font=mainFont, fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
-        maxUseVoltageEtiket = ImageDraw.Draw(img)
-        maxUseVoltageEtiket.text((280, 845), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
+            testedEtiket = ImageDraw.Draw(img)
+            testedEtiket.text((600, 650), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))
 
-        testedEtiket = ImageDraw.Draw(img)
-        testedEtiket.text((600, 670), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))
+            testinfoEtiket = ImageDraw.Draw(img)
+            testinfoEtiket.text((520, 700), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))
 
-        testinfoEtiket = ImageDraw.Draw(img)
-        testinfoEtiket.text((520, 720), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))
+            maxUseVoltageEtiket = ImageDraw.Draw(img)
+            maxUseVoltageEtiket.text((280, 845), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
+
+        elif(saEleman == 'a' or saEleman == 'A'):
+            lotNoEtiket = ImageDraw.Draw(img)
+            lotNoEtiket.text((615, 496), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))
+
+            sizeEtiket = ImageDraw.Draw(img)
+            sizeEtiket.text((705, 537), "{}".format(size), font=mainFont, fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
+
+            testedEtiket = ImageDraw.Draw(img)
+            testedEtiket.text((600, 610), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))
+
+            testinfoEtiket = ImageDraw.Draw(img)
+            testinfoEtiket.text((520, 660), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))
+
+            arcDetayEtiket = ImageDraw.Draw(img)
+            arcDetayEtiket.text((265, 834), "{}".format(arcDetay), font=arcDetayFont, fill=(0, 0, 0))
+
+            maxUseVoltageEtiket = ImageDraw.Draw(img)
+            maxUseVoltageEtiket.text((280, 800), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
 
         imgson = img.convert('RGB')
 
