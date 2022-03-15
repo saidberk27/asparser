@@ -187,7 +187,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
         arcDetay = ""  # STANDARTTA ARC DETAY YOK
     elif (saEleman == 'a' or saEleman == 'A'):
         eldivenTurUygun = 'ASP-EİA'
-        arcDetay = "IESC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+        arcDetay = "  IESC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
 
     klasorYoksaAc('son')
     klasorTemizle(sonPath)
