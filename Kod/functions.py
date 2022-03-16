@@ -164,7 +164,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
     ayUygun = datetime.today().strftime('%m') #AY DATASI
 
     mainFont = ImageFont.truetype('ariblk.ttf', 34)
-    arcDetayFont = ImageFont.truetype('ariblk.ttf', 30)
+    arcDetayFont = ImageFont.truetype('HUBlackout Black.ttf', 34)
     maxUseVoltageFont = ImageFont.truetype('ariblk.ttf', 30)
     testFont = ImageFont.truetype('ariblk.ttf', 36)
 
@@ -187,7 +187,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
         arcDetay = ""  # STANDARTTA ARC DETAY YOK
     elif (saEleman == 'a' or saEleman == 'A'):
         eldivenTurUygun = 'ASP-EİA'
-        arcDetay = "  IESC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+        arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
 
     klasorYoksaAc('son')
     klasorTemizle(sonPath)
@@ -224,23 +224,24 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
             maxUseVoltageEtiket.text((280, 845), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
 
         elif(saEleman == 'a' or saEleman == 'A'):
+
             lotNoEtiket = ImageDraw.Draw(img)
-            lotNoEtiket.text((615, 496), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))
+            lotNoEtiket.text((615, 496), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
 
             sizeEtiket = ImageDraw.Draw(img)
             sizeEtiket.text((705, 537), "{}".format(size), font=mainFont, fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             testedEtiket = ImageDraw.Draw(img)
-            testedEtiket.text((600, 610), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))
+            testedEtiket.text((600, 590), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))# SOLBOSLUK,USTBOSLUK
 
             testinfoEtiket = ImageDraw.Draw(img)
-            testinfoEtiket.text((520, 660), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))
+            testinfoEtiket.text((520, 640), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))# SOLBOSLUK,USTBOSLUK
 
             arcDetayEtiket = ImageDraw.Draw(img)
-            arcDetayEtiket.text((265, 834), "{}".format(arcDetay), font=arcDetayFont, fill=(0, 0, 0))
+            arcDetayEtiket.text((220, 810), "{}".format(arcDetay), font=arcDetayFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
 
             maxUseVoltageEtiket = ImageDraw.Draw(img)
-            maxUseVoltageEtiket.text((280, 800), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
+            maxUseVoltageEtiket.text((450, 685), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
 
         imgson = img.convert('RGB')
 
