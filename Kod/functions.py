@@ -253,7 +253,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
             imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
         i = i + 1
 
-def ikiliYap(yatayBosluk):
+def ikiliYap(yatayBosluk,sizeData):
     temelPath = os.path.abspath(os.getcwd()) + '/ikilison'
     tersPath = os.path.abspath(os.getcwd()) + '/ters_son'
     tersPath2 = os.path.abspath(os.getcwd()) + '/ters_son2'
@@ -290,7 +290,7 @@ def ikiliYap(yatayBosluk):
             temel.paste(seriNoBelgeTers,(0,0))
             temel.paste(seriNoBelgeTers,(yatayBosluk,0))
 
-            temel.save('ikilison/ikilison{}.png'.format(birdenBasla))
+            temel.save('ikilison/SIZE{}_{}.png'.format(str(sizeData),birdenBasla))
             birdenBasla = birdenBasla + 1
     except FileNotFoundError:
         print("Cift Sayi Asimi")

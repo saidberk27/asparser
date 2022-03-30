@@ -6,9 +6,10 @@
       <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/.idea/Kod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison10.png" beforeDir="false" />
@@ -92,14 +93,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kod/main.py" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-      </console-settings>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Esas" type="PythonConfigurationType" factoryName="Python">

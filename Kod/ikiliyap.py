@@ -15,6 +15,9 @@ import yukleniyor as yukleniyorPencere
 
 
 class Ui_IkiliYap(object):
+    def __init__(self,sizeData):
+        self.sizeData = sizeData
+        print(sizeData)
     def yukleniyorAc(self):
         self.window = QtWidgets.QMainWindow()
         self.ui = yukleniyorPencere.Ui_YukleniyorPencere()
@@ -90,7 +93,7 @@ class Ui_IkiliYap(object):
         self.yukleniyorAc()
         yatayBoslukInput = int(self.yatayBoslukLine.text())
 
-        fonksiyon.ikiliYap(yatayBoslukInput)
+        fonksiyon.ikiliYap(yatayBoslukInput,self.sizeData)
         self.yukleniyorKapa()
 
     def retranslateUi(self, DortluYap):

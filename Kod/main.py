@@ -291,9 +291,11 @@ class Ui_MainWindow(object):
         self.window.show()
 
     def ikiliMenuAc(self):
+        sizeInput = self.size_line.text()
+
         print("İkili Menu Tiklandi")
         self.window = QtWidgets.QMainWindow()
-        self.ui = ikiliyap.Ui_IkiliYap()
+        self.ui = ikiliyap.Ui_IkiliYap(sizeInput)
         self.ui.setupUi(self.window)
         self.window.show()
 
