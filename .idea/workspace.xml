@@ -2,9 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/etiketyeni.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/etiketyeni.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/Kod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/Kod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__171627.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__171627.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__171936.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__171936.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172319.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172319.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172426.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172426.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172818.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172818.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172935.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__172935.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173022.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173022.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173053.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/02_03_2022__173053.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141625.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141625.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141701.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141701.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141737.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__141737.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__142817.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__142817.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__142946.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__142946.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143140.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143140.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143310.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143310.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143450.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143450.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143524.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__143524.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__144913.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__144913.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145133.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145133.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145210.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145210.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/07_03_2022__145225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121701.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121701.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121813.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121813.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121906.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121906.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121949.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__121949.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__122005.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__122005.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__122039.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__122039.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__123945.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__123945.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__124022.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/14_03_2022__124022.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__093600.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__093600.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__093926.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__093926.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094403.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094403.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094424.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094424.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094459.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094459.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094526.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094526.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094609.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094609.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094651.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094651.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094758.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094758.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094826.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094826.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094831.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094831.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094920.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094920.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094934.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094934.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094941.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094941.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094949.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__094949.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095038.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095038.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095040.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095040.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095147.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095147.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095150.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095150.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095356.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095356.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095408.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095408.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095441.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095441.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095500.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095655.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095655.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095722.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095722.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095844.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__095844.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100228.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100228.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100334.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100334.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100407.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100407.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100455.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100455.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100507.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100507.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100621.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100621.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100700.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100700.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100707.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__100707.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103403.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103403.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103517.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103517.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103531.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/15_03_2022__103531.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__131759.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__131759.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__131959.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__131959.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132212.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132212.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132354.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132354.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132358.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132358.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132446.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__132446.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133141.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133141.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133703.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133703.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133939.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__133939.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134008.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134008.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134156.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__134156.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135248.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135248.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135314.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135314.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135346.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135346.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135428.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135428.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135658.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__135658.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142638.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142638.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142838.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142838.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142927.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142927.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142945.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__142945.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__143032.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__143032.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__143059.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/16_03_2022__143059.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +123,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kod" />
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.ESAS">
+    <configuration name="ESAS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\C Said Berk\AppData\Local\Microsoft\WindowsApps\python3.9.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="arayuz2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aspar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -39,27 +158,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ASPARSER/Kod/arayuz2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,9 +187,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.arayuz2" />
+      <item itemvalue="Python.ESAS" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.ESAS" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.arayuz2" />
       </list>

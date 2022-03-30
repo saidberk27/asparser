@@ -50,7 +50,7 @@ def seriNoKayıt():
 def seriNoOlustur(ulke,partiNo,sinif,partiEleman,sizeEleman,saEleman):
     seriNoKayıt()
 
-    seriEndemik = 0 #SON 3 HANE ICIN OLUSTURULDU
+    seriEndemik = 1 #SON 3 HANE ICIN OLUSTURULDU
 
     partiNoUygun = str(partiNo).zfill(3) #AY DATASI CEKILDI
 
@@ -279,20 +279,21 @@ def ikiliYap(yatayBosluk):
 
     temel = Image.open('temelikili.jpg')
 
+    birdenBasla = 1
     try:
         for i in range(0, (elemanSayisi + 1)): #i = 0.belggeden baslayarak tum belgeleri tarayacak. FOR'UN ICI NE ANLATIYOR?INDEXLER IKISER IKISER ATLANIYOR.ELEMAN SAYISI +1 SON ELEMAN CIFT SAYIYSA ONUN DA ALINMASI ICIN.
     #SON ELEMAN CIFT SAYIYSA INDEX OUT OF RANGE HATASI VERECEK DUZELT.
-            seriNoBelge = Image.open("son/SONP{}.jpg".format(str(i).zfill(3)))
+            seriNoBelge = Image.open("son/SONP{}.jpg".format(str(birdenBasla).zfill(3)))
             seriNoBelgeTers = seriNoBelge.rotate(180)
-            seriNoBelgeTers.save('ters_son/TERSSON{}.jpg'.format(str(i).zfill(3)))
+            seriNoBelgeTers.save('ters_son/TERSSON{}.jpg'.format(str(birdenBasla).zfill(3)))
 
             temel.paste(seriNoBelgeTers,(0,0))
             temel.paste(seriNoBelgeTers,(yatayBosluk,0))
 
-            temel.save('ikilison/ikilison{}.png'.format(i))
+            temel.save('ikilison/ikilison{}.png'.format(birdenBasla))
+            birdenBasla = birdenBasla + 1
     except FileNotFoundError:
         print("Cift Sayi Asimi")
-
 
 def dortluYap(dikeyBosluk,yatayBosluk):
     tersPath = os.path.abspath(os.getcwd()) + '/ters_son'
