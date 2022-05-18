@@ -151,6 +151,7 @@ def qrCodeEkle(saEleman):
 
 
 def yaziResimBirlesme(classType,size,lotNo,saEleman):
+
     qrPaperPath = os.path.abspath(os.getcwd()) + '/qrpapers'
     qrPaperPathContents = os.listdir(qrPaperPath) #QR PAPER PATH ERISIM
 
@@ -168,46 +169,29 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
     maxUseVoltageFont = ImageFont.truetype('ariblk.ttf', 30)
     testFont = ImageFont.truetype('ariblk.ttf', 36)
 
-
-    #-----------------------------------------------------------------------------
-    if (classType == "00"): #classType = sinifInput
-        maxUseVoltage = "Max. Use Voltage 500 V AC"  # MAX USE VOLTAGE SADECE ETIKETTE
-        testInfo = "2.5 kV AC/60 sec"
-
-    elif (classType == "0"):
-        maxUseVoltage = "Max. Use Voltage 1000 V AC"
-        testInfo = "5 kV AC/60 sec"
-
-    elif (classType == "4"):
-        maxUseVoltage = "Max. Use Voltage 36000 V AC"
-        testInfo = "40 kV AC/60 sec"
-
-    if (saEleman == 's' or saEleman == 'S'):  # Eldiven (standart/arc) belirlenmesi
+    def standartYaziEkle():
         eldivenTurUygun = 'ASP-Eİ'
-        arcDetay = ""  # STANDARTTA ARC DETAY YOK
-    elif (saEleman == 'a' or saEleman == 'A'):
-        eldivenTurUygun = 'ASP-EİA'
-        arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
 
-    klasorYoksaAc('son')
-    klasorTemizle(sonPath)
+        klasorYoksaAc('son')
+        klasorTemizle(sonPath)
 
-    i = 0
-    for paperContent in qrPaperPathContents:
-        print(paperContent)
-        print(seriNoListe[i])
-        img = Image.open('qrpapers/{}'.format(paperContent)) #HAZIRLANMIS QR PAPERLARA ERISIM
+        i = 0
+        for paperContent in qrPaperPathContents:
+            print(paperContent)
+            print(seriNoListe[i])
+            img = Image.open('qrpapers/{}'.format(paperContent))  # HAZIRLANMIS QR PAPERLARA ERISIM
 
-        eldivenTurEtiket = ImageDraw.Draw(img)
-        eldivenTurEtiket.text((50, 150), "{}".format(eldivenTurUygun), font=mainFont, fill=(0, 0, 0))
+            eldivenTurEtiket = ImageDraw.Draw(img)
+            eldivenTurEtiket.text((50, 150), "{}".format(eldivenTurUygun), font=mainFont, fill=(0, 0, 0))
 
-        sinifEtiket = ImageDraw.Draw(img) #USTUNE YAZACAGIMIZ ICIN DRAW FONKSIYONU
-        sinifEtiket.text((545, 281), "{}".format(classType), font=mainFont, fill=(0, 0, 0))#POZISYON,FONT VE RENK AYARLAMALARI
+            sinifEtiket = ImageDraw.Draw(img)  # USTUNE YAZACAGIMIZ ICIN DRAW FONKSIYONU
+            sinifEtiket.text((545, 281), "{}".format(classType), font=mainFont,
+                             fill=(0, 0, 0))  # POZISYON,FONT VE RENK AYARLAMALARI
 
-        tarihEtiket = ImageDraw.Draw(img)
-        tarihEtiket.text((432, 373), "{}/{}".format(ayUygun,yilUygun), font=mainFont, fill=(0, 0, 0))#USTTEN BOSLUK-SOLDAN BOSLUK
+            tarihEtiket = ImageDraw.Draw(img)
+            tarihEtiket.text((432, 373), "{}/{}".format(ayUygun, yilUygun), font=mainFont,
+                             fill=(0, 0, 0))  # USTTEN BOSLUK-SOLDAN BOSLUK
 
-        if(saEleman == 's' or saEleman == 'S'):
             lotNoEtiket = ImageDraw.Draw(img)
             lotNoEtiket.text((625, 558), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))
 
@@ -223,35 +207,91 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
             maxUseVoltageEtiket = ImageDraw.Draw(img)
             maxUseVoltageEtiket.text((280, 845), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))
 
-        elif(saEleman == 'a' or saEleman == 'A'):
+            imgson = img.convert('RGB')
+
+            try:
+                imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
+
+            except FileNotFoundError:
+                os.system(
+                    "mkdir son")  # INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
+                imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
+            i = i + 1
+
+    def arcYaziEkle():
+        klasorYoksaAc('son')
+        klasorTemizle(sonPath)
+
+        i = 0
+        for paperContent in qrPaperPathContents:
+            if(classType == "4"):
+                eldivenTurUygun = '         ASP-EİA-C4\narc flash protection'
+            else:
+                eldivenTurUygun = '         ASP-EİA-C0\narc flash protection'
+            arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+            img = Image.open('qrpapers/{}'.format(paperContent))  # HAZIRLANMIS QR PAPERLARA ERISIM
+
+            eldivenTurEtiket = ImageDraw.Draw(img)
+            eldivenTurEtiket.text((615, 120), "{}".format(eldivenTurUygun), font=mainFont, fill=(0, 0, 0))
+
+            sinifEtiket = ImageDraw.Draw(img)  # USTUNE YAZACAGIMIZ ICIN DRAW FONKSIYONU
+            sinifEtiket.text((545, 281), "{}".format(classType), font=mainFont,
+                             fill=(0, 0, 0))  # POZISYON,FONT VE RENK AYARLAMALARI
+
+            tarihEtiket = ImageDraw.Draw(img)
+            tarihEtiket.text((432, 373), "{}/{}".format(ayUygun, yilUygun), font=mainFont,
+                             fill=(0, 0, 0))  # USTTEN BOSLUK-SOLDAN BOSLUK
 
             lotNoEtiket = ImageDraw.Draw(img)
-            lotNoEtiket.text((615, 496), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
+            lotNoEtiket.text((615, 496), "{}".format(lotNo), font=mainFont, fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             sizeEtiket = ImageDraw.Draw(img)
             sizeEtiket.text((705, 537), "{}".format(size), font=mainFont, fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             testedEtiket = ImageDraw.Draw(img)
-            testedEtiket.text((600, 590), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))# SOLBOSLUK,USTBOSLUK
+            testedEtiket.text((600, 590), "{}".format("TESTED"), font=testFont, fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             testinfoEtiket = ImageDraw.Draw(img)
-            testinfoEtiket.text((520, 640), "{}".format(testInfo), font=testFont, fill=(255, 0, 0))# SOLBOSLUK,USTBOSLUK
+            testinfoEtiket.text((520, 640), "{}".format(testInfo), font=testFont,
+                                fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             arcDetayEtiket = ImageDraw.Draw(img)
-            arcDetayEtiket.text((220, 810), "{}".format(arcDetay), font=arcDetayFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
+            arcDetayEtiket.text((220, 810), "{}".format(arcDetay), font=arcDetayFont,
+                                fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             maxUseVoltageEtiket = ImageDraw.Draw(img)
-            maxUseVoltageEtiket.text((450, 685), "{}".format(maxUseVoltage), font=maxUseVoltageFont, fill=(0, 0, 0))# SOLBOSLUK,USTBOSLUK
+            maxUseVoltageEtiket.text((450, 685), "{}".format(maxUseVoltage), font=maxUseVoltageFont,
+                                     fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
-        imgson = img.convert('RGB')
+            imgson = img.convert('RGB')
 
-        try:
-            imgson.save('{}'.format(sonPath) +'/SON{}.jpg'.format(paperContent[:-5]))
+            try:
+                imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
 
-        except FileNotFoundError:
-            os.system("mkdir son") #INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
-            imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
-        i = i + 1
+            except FileNotFoundError:
+                os.system(
+                    "mkdir son")  # INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
+                imgson.save('{}'.format(sonPath) + '/SON{}.jpg'.format(paperContent[:-5]))
+            i = i + 1
+
+    #-----------------------------------------------------------------------------
+    if (classType == "00"): #classType = sinifInput
+        maxUseVoltage = "Max. Use Voltage 500 V AC"  # MAX USE VOLTAGE SADECE ETIKETTE
+        testInfo = "2.5 kV AC/60 sec"
+
+    elif (classType == "0"):
+        maxUseVoltage = "Max. Use Voltage 1000 V AC"
+        testInfo = "5 kV AC/60 sec"
+
+    elif (classType == "4"):
+        maxUseVoltage = "Max. Use Voltage 36000 V AC"
+        testInfo = "40 kV AC/60 sec"
+
+    if (saEleman == "s" or saEleman == "S"):
+        standartYaziEkle()
+    if (saEleman == "a" or saEleman == "A"):
+        arcYaziEkle()
+
 
 def ikiliYap(yatayBosluk,sizeData):
     temelPath = os.path.abspath(os.getcwd()) + '/ikilison'

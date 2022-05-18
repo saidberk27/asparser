@@ -3,76 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/Kod.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/ikilison9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikiliyap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikiliyap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/001S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/001S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/002S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/002S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/003S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/003S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/004S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/004S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/005S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/005S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/006S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/006S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/007S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/007S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/008S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/008S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/009S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/009S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/010S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/010S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/011S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/011S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/012S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrcodes/012S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P001S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P001S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P002S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P002S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P003S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P003S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P004S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P004S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P005S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P005S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P006S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P006S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P007S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P007S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P008S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P008S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P009S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P009S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P010S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P010S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P011S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P011S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P012S.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/qrpapers/P012S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__114246.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__114246.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__115953.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__115953.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__120142.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__120142.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140311.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140311.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140422.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140422.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140458.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140458.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP008.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP011.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/son/SONP012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP012.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON008.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON011.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ters_son/TERSSON012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ters_son/TERSSON012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25phzMfqIoPgCP37uM9ZOf436aB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,18 +46,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Esas" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="As" type="PythonConfigurationType" factoryName="Python">
+      <module name="ASPARSER" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\C Said Berk\PycharmProjects\chromeDinozor\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\C Said Berk\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -145,6 +89,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
