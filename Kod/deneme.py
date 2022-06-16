@@ -1,23 +1,28 @@
-import qrcode as qrcode
+from PIL import Image, ImageDraw, ImageFont
+import os
+samplePath = os.path.abspath(os.getcwd()) + '/sample'
+
+sampleFont = ImageFont.truetype('ariblk.ttf', 200)
+
+sonEtiketPath = os.path.abspath(os.getcwd()) + '/son'
+sonEtiketFolderContents = os.listdir(sonEtiketPath)
+i = 0
 
 
-if __name__ == '__main__':
-    qrMetinTemel = 'Safeline ASP-EI{} {} {} {} https://www.asparenerji.com'
-    eldivenType = "S"
-    sinifInput = "CLASS 00"
-    i = "38948392"
-    uretimTarih = "12/21"
+for sonEtiketHam in sonEtiketFolderContents:
+
+    with Image.open('son/{}'.format(sonEtiketHam)).convert("RGBA") as base:
+
+        txt = Image.new("RGBA", base.size, (255, 255, 255, 0))
+        # get a drawing context
+        d = ImageDraw.Draw(txt)
+
+        # draw text, half opacity
+        d.text((70, 450), "SAMPLE", font=sampleFont, fill=(255, 0, 0, 150))
+        # draw text, full opacity
 
 
-    input_data = qrMetinTemel.format(eldivenType, sinifInput, i, uretimTarih)
+        out = Image.alpha_composite(base, txt)
 
-
-    qr = qrcode.QRCode(version=1, box_size=10, border=5)
-
-
-    qr.add_data(input_data)
-    qr.make(fit=True)
-
-    img = qr.make_image(fill='black', back_color='white')
-    img.save('qrcode001.png')
-
+        out.save("deneme/hamidiye{}.png".format(i))
+        i = i+1

@@ -2,18 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ASPARSER.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASPARSER.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/dortluyap.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/dortluyap.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/ikiliyap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/ikiliyap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/ikiliyap.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/ikiliyap.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/yukleniyor.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/yukleniyor.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/arayuz2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/arayuz2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/deneme.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/deneme.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__114246.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__114246.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__115953.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__115953.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__120142.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__120142.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140311.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140311.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140422.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140422.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140458.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/old_serial_numbers/30_03_2022__140458.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/ikiliyap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikiliyap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/001A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/002A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/003A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/004A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/005A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/006A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/007A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/008A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/009A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/010A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/011A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/012A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P001A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P002A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P003A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P004A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P005A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P006A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P007A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P008A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P009A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P010A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P011A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P012A.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP012.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +73,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kod/main.py" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kod/arayuz2.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings is-module-sdk="true">
+      <console-settings module-name="ASPARSER" is-module-sdk="true">
         <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ASPARSER" />
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.arayuz2">
     <configuration name="As" type="PythonConfigurationType" factoryName="Python">
       <module name="ASPARSER" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,9 +92,114 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\C Said Berk\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\C Said Berk\Documents\Aspar\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
       <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/arayuz2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="arayuz2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/arayuz2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deneme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/deneme.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ikiliyap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/ikiliyap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ikiliyapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/ikiliyapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
@@ -67,6 +211,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.As" />
+      <item itemvalue="Python.arayuz2" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.deneme" />
+      <item itemvalue="Python.ikiliyapp" />
+      <item itemvalue="Python.ikiliyap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.arayuz2" />
+        <item itemvalue="Python.ikiliyap" />
+        <item itemvalue="Python.ikiliyapp" />
+        <item itemvalue="Python.deneme" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

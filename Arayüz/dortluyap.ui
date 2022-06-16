@@ -31,6 +31,9 @@
   <property name="windowTitle">
    <string>Dörtlü Yap</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);border:0;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
@@ -56,6 +59,9 @@
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(4, 155, 224);</string>
        </property>
        <property name="text">
         <string>YATAY BOSLUK:</string>
@@ -130,6 +136,25 @@
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+color: rgb(4, 155, 224);
+background-color: rgb(255, 255, 255);
+border: 3px solid;
+border-color:#049BE0;
+border-radius:15px
+}
+
+QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(4, 155, 224);
+
+}
+
+QPushButton:pressed{
+	background-color: rgb(62, 198, 247);
+}</string>
        </property>
        <property name="text">
         <string>İKİLİ YAP</string>

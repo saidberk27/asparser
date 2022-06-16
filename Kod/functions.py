@@ -13,6 +13,7 @@ import os
 import png
 import shutil
 
+
 #klasorleri bosaltmak icin superior fonksiyon
 def klasorTemizle(klasor_path):
     shutil.rmtree('{}'.format(klasor_path))
@@ -66,16 +67,17 @@ def seriNoOlustur(ulke,partiNo,sinif,partiEleman,sizeEleman,saEleman):
         seriEndemik = seriEndemik + 1# SON 3 HANEYI DEGISTIR.
 
 
-def qrCodeOlustur(sinifInput,saEleman):
-
+def qrCodeOlustur(sinifInput,saEleman,isSample):
     qrPath = os.path.abspath(os.getcwd()) + '\qrcodes'  #QR CODES KLASORUNE EVRENSEL ERISIM
 
     f = open("seri_numaralari.txt","r")
     seriNoListe = f.readlines() # SERI NO LISTESI CEKILDI
 
     uretimTarih = datetime.now().strftime("%d/%m/%Y")
-    qrMetinTemel = 'Safeline ASP-EI{} {} {} {} {} www.asparenerji .com'
-
+    if(isSample):
+        qrMetinTemel = 'This Product is Sample. Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
+    else:
+        qrMetinTemel = 'Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
 
 
     if(saEleman == 's' or saEleman == 'S'): #Eldiven (standart/arc) belirlenmesi
@@ -293,10 +295,41 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
         arcYaziEkle()
 
 
-def ikiliYap(yatayBosluk,sizeData):
+def sampleMod():
+    samplePath = os.path.abspath(os.getcwd()) + '/sample'
+    klasorYoksaAc('sample')
+    klasorTemizle(samplePath)
+
+    sampleFont = ImageFont.truetype('ariblk.ttf', 200)
+
+    sonEtiketPath = os.path.abspath(os.getcwd()) + '/son'
+    sonEtiketFolderContents = os.listdir(sonEtiketPath)
+    i = 0
+
+    for sonEtiketHam in sonEtiketFolderContents:
+        with Image.open('son/{}'.format(sonEtiketHam)).convert("RGBA") as base:
+            txt = Image.new("RGBA", base.size, (255, 255, 255, 0))
+            d = ImageDraw.Draw(txt)
+
+            d.text((70, 450), "SAMPLE", font=sampleFont, fill=(255, 0, 0, 150))
+            # draw text, full opacity
+
+            sampleLabel = Image.alpha_composite(base, txt)
+        try:
+            sampleLabel.save('{}'.format(samplePath) + '/sample{}.png'.format(i))
+
+        except FileNotFoundError:
+            os.system("mkdir sample")  # INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
+            sampleLabel.save('{}'.format(samplePath) + '/sample{}.png'.format(i))
+
+        i = i + 1
+
+
+def ikiliYap(yatayBosluk,sizeData,isSample):
     temelPath = os.path.abspath(os.getcwd()) + '/ikilison'
     tersPath = os.path.abspath(os.getcwd()) + '/ters_son'
     tersPath2 = os.path.abspath(os.getcwd()) + '/ters_son2'
+
     sonPath = os.path.abspath(os.getcwd()) + '/son'
 
 
@@ -319,21 +352,36 @@ def ikiliYap(yatayBosluk,sizeData):
 
     temel = Image.open('temelikili.jpg')
 
-    birdenBasla = 1
-    try:
-        for i in range(0, (elemanSayisi + 1)): #i = 0.belggeden baslayarak tum belgeleri tarayacak. FOR'UN ICI NE ANLATIYOR?INDEXLER IKISER IKISER ATLANIYOR.ELEMAN SAYISI +1 SON ELEMAN CIFT SAYIYSA ONUN DA ALINMASI ICIN.
-    #SON ELEMAN CIFT SAYIYSA INDEX OUT OF RANGE HATASI VERECEK DUZELT.
-            seriNoBelge = Image.open("son/SONP{}.jpg".format(str(birdenBasla).zfill(3)))
-            seriNoBelgeTers = seriNoBelge.rotate(180)
-            seriNoBelgeTers.save('ters_son/TERSSON{}.jpg'.format(str(birdenBasla).zfill(3)))
+    if(isSample):
+        try:
+            for i in range(0, (elemanSayisi + 1)):  # i = 0.belggeden baslayarak tum belgeleri tarayacak. FOR'UN ICI NE ANLATIYOR?INDEXLER IKISER IKISER ATLANIYOR.ELEMAN SAYISI +1 SON ELEMAN CIFT SAYIYSA ONUN DA ALINMASI ICIN.
+                # SON ELEMAN CIFT SAYIYSA INDEX OUT OF RANGE HATASI VERECEK DUZELT.
+                seriNoBelge = Image.open("sample/sample{}.png".format(i))
+                seriNoBelgeTers = seriNoBelge.rotate(180)
+                seriNoBelgeTers.save('ters_son/TERSSON{}.png'.format(i))
 
-            temel.paste(seriNoBelgeTers,(0,0))
-            temel.paste(seriNoBelgeTers,(yatayBosluk,0))
+                temel.paste(seriNoBelgeTers, (0, 0))
+                temel.paste(seriNoBelgeTers, (yatayBosluk, 0))
 
-            temel.save('ikilison/SIZE{}_{}.png'.format(str(sizeData),birdenBasla))
-            birdenBasla = birdenBasla + 1
-    except FileNotFoundError:
-        print("Cift Sayi Asimi")
+                temel.save('ikilison/SIZE{}_{}.png'.format(str(sizeData), i))
+        except FileNotFoundError:
+            print("Cift Sayi Asimi")
+    else:
+        birdenBasla = 1
+        try:
+            for i in range(0, (elemanSayisi + 1)): #i = 0.belggeden baslayarak tum belgeleri tarayacak. FOR'UN ICI NE ANLATIYOR?INDEXLER IKISER IKISER ATLANIYOR.ELEMAN SAYISI +1 SON ELEMAN CIFT SAYIYSA ONUN DA ALINMASI ICIN.
+        #SON ELEMAN CIFT SAYIYSA INDEX OUT OF RANGE HATASI VERECEK DUZELT.
+                seriNoBelge = Image.open("son/SONP{}.jpg".format(str(birdenBasla).zfill(3)))
+                seriNoBelgeTers = seriNoBelge.rotate(180)
+                seriNoBelgeTers.save('ters_son/TERSSON{}.jpg'.format(str(birdenBasla).zfill(3)))
+
+                temel.paste(seriNoBelgeTers,(0,0))
+                temel.paste(seriNoBelgeTers,(yatayBosluk,0))
+
+                temel.save('ikilison/SIZE{}_{}.png'.format(str(sizeData),birdenBasla))
+                birdenBasla = birdenBasla + 1
+        except FileNotFoundError:
+            print("Cift Sayi Asimi")
 
 def dortluYap(dikeyBosluk,yatayBosluk):
     tersPath = os.path.abspath(os.getcwd()) + '/ters_son'

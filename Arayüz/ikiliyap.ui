@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>DortluYap</class>
- <widget class="QMainWindow" name="DortluYap">
+ <class>IkiliYap</class>
+ <widget class="QMainWindow" name="IkiliYap">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>681</width>
+    <width>700</width>
     <height>400</height>
    </rect>
   </property>
@@ -18,18 +18,21 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>681</width>
+    <width>700</width>
     <height>400</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>681</width>
+    <width>700</width>
     <height>400</height>
    </size>
   </property>
   <property name="windowTitle">
-   <string>İKİLİ YAP</string>
+   <string>İkili Yap</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);border:0;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
@@ -37,11 +40,66 @@
      <rect>
       <x>40</x>
       <y>20</y>
-      <width>602</width>
+      <width>677</width>
       <height>401</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="3">
+      <widget class="QPushButton" name="pushButton">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+color: rgb(4, 155, 224);
+background-color: rgb(255, 255, 255);
+border: 3px solid;
+border-color:#049BE0;
+border-radius:15px
+}
+
+QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(4, 155, 224);
+
+}
+
+QPushButton:pressed{
+	background-color: rgb(62, 198, 247);
+}</string>
+       </property>
+       <property name="text">
+        <string>İKİLİ YAP</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
      <item row="0" column="0">
       <widget class="QLabel" name="yatayBoslukText">
        <property name="maximumSize">
@@ -57,6 +115,9 @@
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(4, 155, 224);</string>
+       </property>
        <property name="text">
         <string>YATAY BOSLUK:</string>
        </property>
@@ -65,7 +126,7 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
+     <item row="0" column="3">
       <widget class="QLineEdit" name="yatayBoslukLine">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -92,6 +153,15 @@
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+
+border: 3px solid;
+border-color:rgb(17, 124, 202);
+border-radius:15px
+
+}</string>
+       </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
@@ -100,39 +170,20 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton">
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>150</height>
-        </size>
-       </property>
+     <item row="1" column="3">
+      <widget class="QCheckBox" name="checkBox">
        <property name="font">
         <font>
-         <pointsize>16</pointsize>
+         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(4, 155, 224);</string>
+       </property>
        <property name="text">
-        <string>İKİLİ YAP</string>
+        <string>SAMPLE MOD</string>
        </property>
       </widget>
      </item>
