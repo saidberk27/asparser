@@ -321,12 +321,12 @@ class Ui_MainWindow(object):
         self.menu_coklu.addAction(self.menu_sekizli)
         self.menuBar.addAction(self.menu_lot.menuAction())
         self.menuBar.addAction(self.menu_coklu.menuAction())
-        self.pixmap = QPixmap('logo.jpg')
+
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-
+        self.pixmap = QPixmap('logo.jpg')
         self.menu_dortlu.triggered.connect(self.dortluMenuAc)
         self.menu_ikili.triggered.connect(self.ikiliMenuAc)
         self.menu_lot.triggered.connect(self.lotMenuAc)

@@ -293,29 +293,6 @@ QPushButton:pressed{
        </property>
       </widget>
      </item>
-     <item row="14" column="0">
-      <widget class="QCheckBox" name="checkBox">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="acceptDrops">
-        <bool>false</bool>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(4, 155, 224);</string>
-       </property>
-       <property name="text">
-        <string>SAMPLE MOD</string>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="0">
       <spacer name="horizontalSpacer">
        <property name="orientation">
@@ -402,7 +379,7 @@ border-radius:15px
      <item row="16" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>C.SAİD BERK © TARAFINDAN</string>
+        <string>SAİD BERK © TARAFINDAN</string>
        </property>
       </widget>
      </item>
@@ -663,6 +640,56 @@ border-radius:15px
         </size>
        </property>
       </spacer>
+     </item>
+     <item row="14" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QCheckBox" name="sample_mod_checkBox">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(4, 155, 224);</string>
+         </property>
+         <property name="text">
+          <string>SAMPLE MOD</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="box_test_checkBox">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(4, 155, 224);</string>
+         </property>
+         <property name="text">
+          <string>BOX TEST</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </widget>

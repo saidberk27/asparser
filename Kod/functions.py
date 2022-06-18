@@ -152,7 +152,7 @@ def qrCodeEkle(saEleman):
             temelTaslak.save('{}'.format(qrPaperPath) + '/P{}'.format(imgIndex), quality=4000) #INDEX KAYMASI OLMAMASI ICIN (ILK ADIMI ATLAMAMASI ICIN, BURAYA DA EKLEME KODU EKLIYORUZ.)
 
 
-def yaziResimBirlesme(classType,size,lotNo,saEleman):
+def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
 
     qrPaperPath = os.path.abspath(os.getcwd()) + '/qrpapers'
     qrPaperPathContents = os.listdir(qrPaperPath) #QR PAPER PATH ERISIM
@@ -230,7 +230,12 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
                 eldivenTurUygun = '         ASP-EİA-C4\narc flash protection'
             else:
                 eldivenTurUygun = '         ASP-EİA-C0\narc flash protection'
-            arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+            if(boxTest): #box test checkbox'u işaretlendiyse burası true oluyor.
+                arcDetay = "  IEC 61482-1-2 : 2014\nClass 2 Box Test 7 kA"
+
+            else:
+                arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+
             img = Image.open('qrpapers/{}'.format(paperContent))  # HAZIRLANMIS QR PAPERLARA ERISIM
 
             eldivenTurEtiket = ImageDraw.Draw(img)
@@ -258,7 +263,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman):
                                 fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             arcDetayEtiket = ImageDraw.Draw(img)
-            arcDetayEtiket.text((220, 810), "{}".format(arcDetay), font=arcDetayFont,
+            arcDetayEtiket.text((305, 810), "{}".format(arcDetay), font=arcDetayFont,
                                 fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             maxUseVoltageEtiket = ImageDraw.Draw(img)
