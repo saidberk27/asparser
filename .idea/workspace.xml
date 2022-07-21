@@ -3,11 +3,177 @@
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/arayuz2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/HUBlackout Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/MSVCP140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/MSVCP140_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PIL/_imaging.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PIL/_imagingft.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PIL/_imagingtk.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PIL/_webp.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/iconengines/qsvgicon.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qgif.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qicns.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qico.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qjpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qsvg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qtga.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qtiff.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qwbmp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/imageformats/qwebp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/platforms/qminimal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/platforms/qoffscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/platforms/qwebgl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/platforms/qwindows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/platformthemes/qxdgdesktopportal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/plugins/styles/qwindowsvistastyle.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_ar.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_bg.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_ca.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_cs.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_da.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_de.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_en.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_es.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_fi.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_fr.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_gd.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_he.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_hu.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_it.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_ja.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_ko.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_lv.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_pl.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_ru.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_sk.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_tr.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_uk.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/Qt5/translations/qtbase_zh_TW.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/QtCore.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/QtGui.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/QtWidgets.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/PyQt5/sip.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5DBus.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Gui.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Network.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Qml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5QmlModels.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Quick.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Svg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5WebSockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/Qt5Widgets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/VCRUNTIME140_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_cffi_backend.cp39-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/_uuid.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/ariblk.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/atemelikili.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/d3dcompiler_47.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/etiket-arc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/etiket-standart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/etiket_beyaz2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/etiketyeni2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/impact.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/libEGL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/libGLESv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/libcrypto-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/libffi-7.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/libssl-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/old_serial_numbers/18_05_2022__115726.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/old_serial_numbers/18_05_2022__115736.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/old_serial_numbers/18_05_2022__115744.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/opengl32sw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/python39.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcode001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/001A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/002A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/003A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/004A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/005A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/006A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/007A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/008A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/009A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/010A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/011A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/012A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/013A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/014A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/015A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/016A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/017A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrcodes/018A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrdeneme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P001A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P002A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P003A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P004A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P005A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P006A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P007A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P008A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P009A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P010A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P011A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P012A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P013A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P014A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P015A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P016A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P017A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/qrpapers/P018A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/seri_numaralari.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/setuptools-58.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/son/SONP018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/temeldortlu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/temelikili.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/v1.1/yukle.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kod/arayuz2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tast İsrail" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -40,7 +206,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.arayuz2">
+  <component name="RunManager" selected="Python.main">
     <configuration name="As" type="PythonConfigurationType" factoryName="Python">
       <module name="ASPARSER" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,20 +333,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.As" />
       <item itemvalue="Python.arayuz2" />
       <item itemvalue="Python.deneme" />
       <item itemvalue="Python.ikiliyapp" />
       <item itemvalue="Python.ikiliyap" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.arayuz2" />
         <item itemvalue="Python.arayuz2" />
         <item itemvalue="Python.ikiliyap" />
         <item itemvalue="Python.ikiliyapp" />
-        <item itemvalue="Python.deneme" />
       </list>
     </recent_temporary>
   </component>

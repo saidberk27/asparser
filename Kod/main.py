@@ -1,4 +1,4 @@
-
+#Said Berk
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap
 import functions as fonksiyon
@@ -133,17 +133,6 @@ class Ui_MainWindow(object):
         self.logo.setMaximumSize(QtCore.QSize(240, 100))
         self.logo.setObjectName("logo")
         self.gridLayout.addWidget(self.logo, 0, 2, 1, 1)
-        self.checkBox = QtWidgets.QCheckBox(self.gridLayoutWidget)
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.checkBox.setFont(font)
-        self.checkBox.setAcceptDrops(False)
-        self.checkBox.setLayoutDirection(QtCore.Qt.RightToLeft)
-        self.checkBox.setStyleSheet("color: rgb(4, 155, 224);")
-        self.checkBox.setObjectName("checkBox")
-        self.gridLayout.addWidget(self.checkBox, 14, 0, 1, 1)
         spacerItem4 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout.addItem(spacerItem4, 0, 0, 1, 1)
         self.size_line = QtWidgets.QLineEdit(self.gridLayoutWidget)
@@ -295,6 +284,31 @@ class Ui_MainWindow(object):
         self.gridLayout.addItem(spacerItem7, 2, 0, 1, 1)
         spacerItem8 = QtWidgets.QSpacerItem(10, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout.addItem(spacerItem8, 14, 1, 1, 1)
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.sample_mod_checkBox = QtWidgets.QCheckBox(self.gridLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.sample_mod_checkBox.setFont(font)
+        self.sample_mod_checkBox.setAcceptDrops(False)
+        self.sample_mod_checkBox.setLayoutDirection(QtCore.Qt.RightToLeft)
+        self.sample_mod_checkBox.setStyleSheet("color: rgb(4, 155, 224);")
+        self.sample_mod_checkBox.setObjectName("sample_mod_checkBox")
+        self.verticalLayout.addWidget(self.sample_mod_checkBox)
+        self.box_test_checkBox = QtWidgets.QCheckBox(self.gridLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.box_test_checkBox.setFont(font)
+        self.box_test_checkBox.setAcceptDrops(False)
+        self.box_test_checkBox.setLayoutDirection(QtCore.Qt.RightToLeft)
+        self.box_test_checkBox.setStyleSheet("color: rgb(4, 155, 224);")
+        self.box_test_checkBox.setObjectName("box_test_checkBox")
+        self.verticalLayout.addWidget(self.box_test_checkBox)
+        self.gridLayout.addLayout(self.verticalLayout, 14, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menuBar = QtWidgets.QMenuBar(MainWindow)
         self.menuBar.setGeometry(QtCore.QRect(0, 0, 630, 26))
@@ -322,11 +336,9 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menu_lot.menuAction())
         self.menuBar.addAction(self.menu_coklu.menuAction())
 
-
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-        self.pixmap = QPixmap('logo.jpg')
         self.menu_dortlu.triggered.connect(self.dortluMenuAc)
         self.menu_ikili.triggered.connect(self.ikiliMenuAc)
         self.menu_lot.triggered.connect(self.lotMenuAc)
@@ -344,16 +356,17 @@ class Ui_MainWindow(object):
         self.sinif_label.setText(_translate("MainWindow", "SINIF NUMARASI:"))
         self.label_3.setText(_translate("MainWindow", "ASPAR ENERJI ICIN GELISTIRILMISTIR."))
         self.logo.setText(_translate("MainWindow", "Logo"))
-        self.checkBox.setText(_translate("MainWindow", "SAMPLE MOD"))
         self.size_line.setPlaceholderText(_translate("MainWindow", "8,9,10,11,12"))
         self.parti_line.setPlaceholderText(_translate("MainWindow", "1,2,3 ... 999"))
-        self.label_2.setText(_translate("MainWindow", "C.SAİD BERK © TARAFINDAN"))
+        self.label_2.setText(_translate("MainWindow", "SAİD BERK © TARAFINDAN"))
         self.size_label.setText(_translate("MainWindow", "SIZE:"))
         self.sa_label.setText(_translate("MainWindow", "STANDART/ARC"))
         self.ulke_line.setPlaceholderText(_translate("MainWindow", "TR,UK,GE ..."))
         self.parti_label.setText(_translate("MainWindow", "PARTİ NUMARASI:"))
         self.parti_eleman_line.setPlaceholderText(_translate("MainWindow", "1,2,3 ... 999"))
         self.sinif_line.setPlaceholderText(_translate("MainWindow", "00,0,4"))
+        self.sample_mod_checkBox.setText(_translate("MainWindow", "SAMPLE MOD"))
+        self.box_test_checkBox.setText(_translate("MainWindow", "BOX TEST"))
         self.menu_lot.setTitle(_translate("MainWindow", "Lot Numarası Oluştur"))
         self.menu_coklu.setTitle(_translate("MainWindow", "Çoklu Belge Oluştur"))
         self.menu_ikili.setText(_translate("MainWindow", "İkili Belge Oluştur"))
@@ -361,6 +374,7 @@ class Ui_MainWindow(object):
         self.menu_altili.setText(_translate("MainWindow", "Altılı Belge Oluştur"))
         self.menu_sekizli.setText(_translate("MainWindow", "Sekizli Belge Oluştur"))
 
+        self.pixmap = QPixmap('logo.jpg')
         self.logo.setPixmap(self.pixmap)
 
     def lotMenuAc(self):
@@ -375,8 +389,6 @@ class Ui_MainWindow(object):
 
     def ikiliMenuAc(self):
         sizeInput = self.size_line.text()
-
-        print("İkili Menu Tiklandi")
         self.window = QtWidgets.QMainWindow()
         self.ui = ikiliyap.Ui_IkiliYap(sizeInput)
         self.ui.setupUi(self.window)
@@ -395,16 +407,20 @@ class Ui_MainWindow(object):
         saInput = self.sa_line.text()  # sa = Standart/Arc
 
         isSample = False
-        if (self.checkBox.isChecked()):
-            isSample = True
+        if (self.sample_mod_checkBox.isChecked()):
+            isSample = True #sample modu diger fonksiyonlarda aktiflestirmek icin flag.
 
         fonksiyon.seriNoOlustur(ulkeInput, partiInput, sinifInput, partiElemanInput, sizeInput, saInput)
-        fonksiyon.qrCodeOlustur(sinifInput, saInput, isSample)
+        fonksiyon.qrCodeOlustur(sinifInput, saInput, isSample)#isSample true gitmesi lazim sample durumunda
         fonksiyon.qrCodeEkle(saInput)
-        fonksiyon.yaziResimBirlesme(sinifInput, sizeInput, lotInput, saInput)
 
-        if(self.checkBox.isChecked()):
-            fonksiyon.sampleMod()
+        if(self.box_test_checkBox.isChecked()):
+            fonksiyon.yaziResimBirlesme(sinifInput, sizeInput, lotInput, saInput,boxTest=True)
+        else:
+            fonksiyon.yaziResimBirlesme(sinifInput, sizeInput, lotInput, saInput,boxTest=False)
+
+        if (self.sample_mod_checkBox.isChecked()):
+            fonksiyon.sampleMod() #sample modu faal hale getirmek
 
         self.yukleniyorKapa()
 
@@ -416,7 +432,6 @@ class Ui_MainWindow(object):
 
     def yukleniyorKapa(self):
         self.window.hide()
-
 
 if __name__ == "__main__":
     import sys

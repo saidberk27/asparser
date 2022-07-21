@@ -228,13 +228,10 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
         for paperContent in qrPaperPathContents:
             if(classType == "4"):
                 eldivenTurUygun = '         ASP-EİA-C4\narc flash protection'
+                calVeri = '111' #ASTM F2675:APTV 111 cal cm^3
             else:
                 eldivenTurUygun = '         ASP-EİA-C0\narc flash protection'
-            if(boxTest): #box test checkbox'u işaretlendiyse burası true oluyor.
-                arcDetay = "  IEC 61482-1-2 : 2014\nClass 2 Box Test 7 kA"
-
-            else:
-                arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV 111 cal/cm²"
+                calVeri = '30' #ASTM F2675:APTV 30 cal cm^3
 
             img = Image.open('qrpapers/{}'.format(paperContent))  # HAZIRLANMIS QR PAPERLARA ERISIM
 
@@ -262,9 +259,17 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
             testinfoEtiket.text((520, 640), "{}".format(testInfo), font=testFont,
                                 fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
-            arcDetayEtiket = ImageDraw.Draw(img)
-            arcDetayEtiket.text((305, 810), "{}".format(arcDetay), font=arcDetayFont,
-                                fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
+            if (boxTest):  # box test checkbox'u işaretlendiyse burası true oluyor.
+                arcDetay = "  IEC 61482-1-2 : 2014\nClass 2 Box Test 7 kA"
+                arcDetayEtiket = ImageDraw.Draw(img)
+                arcDetayEtiket.text((305, 810), "{}".format(arcDetay), font=arcDetayFont,
+                                    fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
+
+            else:
+                arcDetay = "  IEC 61482-1-2:APC CLASS 2\nASTM F2675:APTV {} cal/cm²".format(calVeri)
+                arcDetayEtiket = ImageDraw.Draw(img)
+                arcDetayEtiket.text((220, 810), "{}".format(arcDetay), font=arcDetayFont,
+                                    fill=(0, 0, 0))
 
             maxUseVoltageEtiket = ImageDraw.Draw(img)
             maxUseVoltageEtiket.text((450, 685), "{}".format(maxUseVoltage), font=maxUseVoltageFont,
