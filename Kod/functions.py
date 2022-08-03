@@ -260,9 +260,9 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
                                 fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             if (boxTest):  # box test checkbox'u işaretlendiyse burası true oluyor.
-                arcDetay = "  IEC 61482-1-2 : 2014\nClass 2 Box Test 7 kA"
+                arcDetay = "  IEC 61482-1-2 : 2014 Class 2 Box Test 7 kA\n\t\t\t\t\t\t\t\tASTM F2675:APTV {} cal/cm".format(calVeri)
                 arcDetayEtiket = ImageDraw.Draw(img)
-                arcDetayEtiket.text((305, 810), "{}".format(arcDetay), font=arcDetayFont,
+                arcDetayEtiket.text((90, 810), "{}".format(arcDetay), font=arcDetayFont,
                                     fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             else:
