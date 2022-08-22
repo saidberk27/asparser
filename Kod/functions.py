@@ -94,6 +94,10 @@ def qrCodeOlustur(sinifInput,saEleman,isSample):
         testkv = "5kV"
         maxUseVoltage = "1000V"
 
+    elif(sinifInput == "1"):
+        testkv = "10kV"
+        maxUseVoltage = "7500V"
+
     elif(sinifInput == "4"):
         testkv = "40kV"
         maxUseVoltage = "36.000V"
@@ -260,7 +264,7 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
                                 fill=(255, 0, 0))  # SOLBOSLUK,USTBOSLUK
 
             if (boxTest):  # box test checkbox'u işaretlendiyse burası true oluyor.
-                arcDetay = "  IEC 61482-1-2 : 2014 Class 2 Box Test 7 kA\n\t\t\t\t\t\t\t\tASTM F2675:APTV {} cal/cm".format(calVeri)
+                arcDetay = "  IEC 61482-1-2 : 2014 Class 2 Box Test 7 kA\n\t\t\t\t\t\t\t\tASTM F2675:APTV {} cal/cm²".format(calVeri)
                 arcDetayEtiket = ImageDraw.Draw(img)
                 arcDetayEtiket.text((90, 810), "{}".format(arcDetay), font=arcDetayFont,
                                     fill=(0, 0, 0))  # SOLBOSLUK,USTBOSLUK
@@ -294,6 +298,10 @@ def yaziResimBirlesme(classType,size,lotNo,saEleman,boxTest):
     elif (classType == "0"):
         maxUseVoltage = "Max. Use Voltage 1000 V AC"
         testInfo = "5 kV AC/60 sec"
+
+    elif(classType == "1"):
+        maxUseVoltage = "Max. Use Voltage 7500 V AC"
+        testInfo = "10 kV AC/60 sec"
 
     elif (classType == "4"):
         maxUseVoltage = "Max. Use Voltage 36000 V AC"
