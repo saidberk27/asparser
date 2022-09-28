@@ -9,23 +9,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import functions as fonksiyon
-import yukleniyor as yukleniyorPencere
+
 
 class Ui_IkiliYap(object):
-    def __init__(self, sizeData):
-        self.sizeData = sizeData
-        print(sizeData)
-
-    def yukleniyorAc(self):
-        self.window = QtWidgets.QMainWindow()
-        self.ui = yukleniyorPencere.Ui_YukleniyorPencere()
-        self.ui.setupUi(self.window)
-        self.window.show()
-
-    def yukleniyorKapa(self):
-        self.window.hide()
-
     def setupUi(self, IkiliYap):
         IkiliYap.setObjectName("IkiliYap")
         IkiliYap.resize(800, 400)
@@ -129,23 +115,6 @@ class Ui_IkiliYap(object):
 
         self.retranslateUi(IkiliYap)
         QtCore.QMetaObject.connectSlotsByName(IkiliYap)
-
-        self.pushButton.clicked.connect(self.tiklandi)
-
-    def tiklandi(self):
-        self.yukleniyorAc()
-        yatayBoslukInput = int(self.yatayBoslukLine.text())
-
-        if (self.checkBox.isChecked()):
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isSample=True)
-
-        elif(self.double_color_mod_checkbox.isChecked()):
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isDoubleColor=True)
-
-        else:
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData)
-
-        self.yukleniyorKapa()
 
     def retranslateUi(self, IkiliYap):
         _translate = QtCore.QCoreApplication.translate

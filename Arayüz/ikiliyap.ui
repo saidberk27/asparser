@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>700</width>
+    <width>800</width>
     <height>400</height>
    </rect>
   </property>
@@ -18,13 +18,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>700</width>
+    <width>800</width>
     <height>400</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>700</width>
+    <width>800</width>
     <height>400</height>
    </size>
   </property>
@@ -45,7 +45,7 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="3" column="3">
+     <item row="4" column="3">
       <widget class="QPushButton" name="pushButton">
        <property name="maximumSize">
         <size>
@@ -81,48 +81,6 @@ QPushButton:pressed{
        </property>
        <property name="text">
         <string>İKİLİ YAP</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="yatayBoslukText">
-       <property name="maximumSize">
-        <size>
-         <width>300</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(4, 155, 224);</string>
-       </property>
-       <property name="text">
-        <string>YATAY BOSLUK:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
@@ -170,7 +128,7 @@ border-radius:15px
        </property>
       </widget>
      </item>
-     <item row="1" column="3">
+     <item row="2" column="3">
       <widget class="QCheckBox" name="checkBox">
        <property name="font">
         <font>
@@ -184,6 +142,65 @@ border-radius:15px
        </property>
        <property name="text">
         <string>SAMPLE MOD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="yatayBoslukText">
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(4, 155, 224);</string>
+       </property>
+       <property name="text">
+        <string>YATAY BOSLUK:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QCheckBox" name="double_color_mod_checkbox">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(4, 155, 224);</string>
+       </property>
+       <property name="text">
+        <string>DOUBLE COLOR MOD</string>
        </property>
       </widget>
      </item>

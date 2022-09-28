@@ -1,0 +1,3 @@
+double_color klasörü manuel olarak açılmak zorunda, düzelt.
+
+double_color'u sadece  standart için ayarla
