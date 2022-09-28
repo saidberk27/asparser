@@ -342,6 +342,22 @@ def sampleMod():
 
         i = i + 1
 
+def doubleColorMod():
+    doubleColorPath = os.path.abspath(os.getcwd()) + '/double_color'
+    klasorTemizle(doubleColorPath)
+    klasorYoksaAc('double_color')
+    mainFont = ImageFont.truetype('ariblk.ttf', 34)
+    sonEtiketPath = os.path.abspath(os.getcwd()) + '/son'
+
+    sonEtiketFolderContents = os.listdir(sonEtiketPath)
+    i = 1
+    for sonEtiketHam in sonEtiketFolderContents:
+        img = Image.open('son/{}'.format(sonEtiketHam))
+        doubleColorEtiket = ImageDraw.Draw(img)
+        doubleColorEtiket.text((660, 150), "{}".format("DOUBLE COLOR"), font=mainFont, fill=(0, 0, 0))
+        img.save('{}'.format(doubleColorPath) + '/DOUBLECOLOR{}.jpg'.format(i))
+        i = i + 1
+
 
 def ikiliYap(yatayBosluk,sizeData,isSample):
     temelPath = os.path.abspath(os.getcwd()) + '/ikilison'

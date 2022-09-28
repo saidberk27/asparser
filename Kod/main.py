@@ -6,6 +6,7 @@ import yukleniyor as yukleniyorPencere
 import dortluyap as dortluyap
 import ikiliyap as ikiliyap
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -171,9 +172,6 @@ class Ui_MainWindow(object):
         self.parti_line.setAlignment(QtCore.Qt.AlignCenter)
         self.parti_line.setObjectName("parti_line")
         self.gridLayout.addWidget(self.parti_line, 3, 2, 1, 1)
-        self.label_2 = QtWidgets.QLabel(self.gridLayoutWidget)
-        self.label_2.setObjectName("label_2")
-        self.gridLayout.addWidget(self.label_2, 16, 0, 1, 1)
         spacerItem5 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout.addItem(spacerItem5, 4, 0, 1, 1)
         self.size_label = QtWidgets.QLabel(self.gridLayoutWidget)
@@ -286,6 +284,16 @@ class Ui_MainWindow(object):
         self.gridLayout.addItem(spacerItem8, 14, 1, 1, 1)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
+        self.double_color_checkBox = QtWidgets.QCheckBox(self.gridLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.double_color_checkBox.setFont(font)
+        self.double_color_checkBox.setLayoutDirection(QtCore.Qt.RightToLeft)
+        self.double_color_checkBox.setStyleSheet("color: rgb(4, 155, 224);")
+        self.double_color_checkBox.setObjectName("double_color_checkBox")
+        self.verticalLayout.addWidget(self.double_color_checkBox)
         self.sample_mod_checkBox = QtWidgets.QCheckBox(self.gridLayoutWidget)
         font = QtGui.QFont()
         font.setPointSize(10)
@@ -345,6 +353,10 @@ class Ui_MainWindow(object):
         self.pushButton.clicked.connect(self.tiklandi)
 
 
+        self.pixmap = QPixmap('logo.jpg')
+        self.logo.setPixmap(self.pixmap)
+
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "ASPARSER"))
@@ -358,13 +370,13 @@ class Ui_MainWindow(object):
         self.logo.setText(_translate("MainWindow", "Logo"))
         self.size_line.setPlaceholderText(_translate("MainWindow", "8,9,10,11,12"))
         self.parti_line.setPlaceholderText(_translate("MainWindow", "1,2,3 ... 999"))
-        self.label_2.setText(_translate("MainWindow", "SAİD BERK © TARAFINDAN"))
         self.size_label.setText(_translate("MainWindow", "SIZE:"))
         self.sa_label.setText(_translate("MainWindow", "STANDART/ARC"))
         self.ulke_line.setPlaceholderText(_translate("MainWindow", "TR,UK,GE ..."))
         self.parti_label.setText(_translate("MainWindow", "PARTİ NUMARASI:"))
         self.parti_eleman_line.setPlaceholderText(_translate("MainWindow", "1,2,3 ... 999"))
         self.sinif_line.setPlaceholderText(_translate("MainWindow", "00,0,4"))
+        self.double_color_checkBox.setText(_translate("MainWindow", "DOUBLE COLOR"))
         self.sample_mod_checkBox.setText(_translate("MainWindow", "SAMPLE MOD"))
         self.box_test_checkBox.setText(_translate("MainWindow", "BOX TEST"))
         self.menu_lot.setTitle(_translate("MainWindow", "Lot Numarası Oluştur"))
@@ -374,8 +386,6 @@ class Ui_MainWindow(object):
         self.menu_altili.setText(_translate("MainWindow", "Altılı Belge Oluştur"))
         self.menu_sekizli.setText(_translate("MainWindow", "Sekizli Belge Oluştur"))
 
-        self.pixmap = QPixmap('logo.jpg')
-        self.logo.setPixmap(self.pixmap)
 
     def lotMenuAc(self):
         print("lot")
@@ -421,6 +431,9 @@ class Ui_MainWindow(object):
 
         if (self.sample_mod_checkBox.isChecked()):
             fonksiyon.sampleMod() #sample modu faal hale getirmek
+
+        if(self.double_color_checkBox.isChecked()):
+            fonksiyon.doubleColorMod()
 
         self.yukleniyorKapa()
 
