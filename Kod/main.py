@@ -1,7 +1,7 @@
 #Said Berk
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap
-import functions as fonksiyon
+from functions import Functions
 import yukleniyor as yukleniyorPencere
 import dortluyap as dortluyap
 import ikiliyap as ikiliyap
@@ -417,17 +417,24 @@ class Ui_MainWindow(object):
         saInput = self.sa_line.text()  # sa = Standart/Arc
 
         isSample = False
+        isBoxTest = False
+        isDoubleColor = False
+
+
         if (self.sample_mod_checkBox.isChecked()):
             isSample = True #sample modu diger fonksiyonlarda aktiflestirmek icin flag.
 
-        fonksiyon.seriNoOlustur(ulkeInput, partiInput, sinifInput, partiElemanInput, sizeInput, saInput)
-        fonksiyon.qrCodeOlustur(sinifInput, saInput, isSample)#isSample true gitmesi lazim sample durumunda
-        fonksiyon.qrCodeEkle(saInput)
+        if (self.box_test_checkBox.isChecked()):
+            isBoxTest = True
 
-        if(self.box_test_checkBox.isChecked()):
-            fonksiyon.yaziResimBirlesme(sinifInput, sizeInput, lotInput, saInput,boxTest=True)
-        else:
-            fonksiyon.yaziResimBirlesme(sinifInput, sizeInput, lotInput, saInput,boxTest=False)
+        if(self.double_color_checkBox.isChecked()):
+            isDoubleColor = True
+
+        fonksiyon = Functions(ulkekodu=ulkeInput, partiNo=partiInput, classNo=sinifInput, sizeNo=sizeInput, lotNo=lotInput, partidekiEldivenSayisi=partiElemanInput, isStandart=saInput, isSample=isSample, isBoxTest=isBoxTest, isDoubleColor=isDoubleColor)
+        fonksiyon.seriNoOlustur()
+        fonksiyon.qrCodeOlustur()#isSample true gitmesi lazim sample durumunda
+        fonksiyon.qrCodeEkle()
+        fonksiyon.yaziResimBirlesme()
 
         if (self.sample_mod_checkBox.isChecked()):
             fonksiyon.sampleMod() #sample modu faal hale getirmek

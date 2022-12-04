@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ASPARSER.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASPARSER.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikilison/SIZE11_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikilison/SIZE11_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/ikiliyap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikiliyap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Said Berk/Documents/Aspar/asparser/Kod/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="ASPARSER" is-module-sdk="true">
@@ -51,122 +45,17 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="As" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ASPARSER" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\C Said Berk\Documents\Aspar\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Said Berk\Documents\Aspar\asparser\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/arayuz2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="arayuz2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/arayuz2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="arayuz2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/arayuz2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ikiliyap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/ikiliyap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ikiliyapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/ikiliyapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main.py" />
@@ -178,42 +67,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yukleniyor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ASPARSER" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/yukleniyor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.As" />
-      <item itemvalue="Python.arayuz2" />
-      <item itemvalue="Python.ikiliyapp" />
-      <item itemvalue="Python.ikiliyap" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.yukleniyor" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.yukleniyor" />
-        <item itemvalue="Python.arayuz2" />
-        <item itemvalue="Python.arayuz2" />
-        <item itemvalue="Python.ikiliyap" />
       </list>
     </recent_temporary>
   </component>

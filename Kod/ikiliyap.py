@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import functions as fonksiyon
+from functions import Functions
 import yukleniyor as yukleniyorPencere
 
 class Ui_IkiliYap(object):
@@ -137,13 +137,19 @@ class Ui_IkiliYap(object):
         yatayBoslukInput = int(self.yatayBoslukLine.text())
 
         if (self.checkBox.isChecked()):
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isSample=True)
+            fonksiyon = Functions(verticalSpace=yatayBoslukInput, sizeNo=self.sizeData, isSample=True)
+            fonksiyon.ikiliYap()
+            #fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isSample=True)
 
         elif(self.double_color_mod_checkbox.isChecked()):
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isDoubleColor=True)
+            fonksiyon = Functions(verticalSpace=yatayBoslukInput, sizeNo=self.sizeData, isDoubleColor=True)
+            fonksiyon.ikiliYap()
+            #fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData, isDoubleColor=True)
 
         else:
-            fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData)
+            fonksiyon = Functions(verticalSpace=yatayBoslukInput, sizeNo=self.sizeData)
+            fonksiyon.ikiliYap()
+            #fonksiyon.ikiliYap(yatayBoslukInput, self.sizeData)
 
         self.yukleniyorKapa()
 
