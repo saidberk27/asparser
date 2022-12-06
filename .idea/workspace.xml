@@ -5,12 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cde3886b-de53-49d9-9281-bdbbe4928528" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ASPARSER.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASPARSER.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arayüz/arayuz2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Arayüz/arayuz2.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kod/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/ikiliyap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/ikiliyap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kod/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/001a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/002a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/003a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/004a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/005a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/006a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/007a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/008a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/009a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/010a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/011a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrcodes/012a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P001a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P002a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P003a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P004a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P005a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P006a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P007a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P008a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P009a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P010a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P011a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/qrpapers/P012a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/seri_numaralari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/seri_numaralari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kod/son/SONP012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kod/son/SONP012.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +79,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main2">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ASPARSER" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,8 +101,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASPARSER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kod" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kod/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main2" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>

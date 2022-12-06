@@ -10,21 +10,19 @@ from datetime import datetime
 import qrcode as qrcode
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import os
-import png
 import shutil
-
-
 
 class Functions:
 # klasorleri bosaltmak icin superior fonksiyon
 
-    def __init__(self, ulkekodu=None, partiNo=None, classNo=None, sizeNo=None, lotNo=None, partidekiEldivenSayisi=None,  isStandart=None, isSample=False, isBoxTest=False, isDoubleColor=False, verticalSpace=None):
+    def __init__(self, ulkekodu=None, partiNo=None, classNo=None, sizeNo=None, lotNo=None, partidekiEldivenSayisi=None, aciklama=None,  isStandart=None, isSample=False, isBoxTest=False, isDoubleColor=False, verticalSpace=None):
         self.ulkeKodu = ulkekodu
         self.partiNo = partiNo
         self.classNo = classNo
         self.sizeNo = sizeNo
         self.lotNo = lotNo
         self.partidekiEldivenSayisi = partidekiEldivenSayisi
+        self.aciklama = aciklama
         self.isStandart = isStandart
         self.isSample = isSample
         self.isBoxTest = isBoxTest
@@ -90,9 +88,9 @@ class Functions:
         uretimTarih = datetime.now().strftime("%d/%m/%Y")
 
         if (self.isSample):
-            qrMetinTemel = 'This Product is Sample. Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
+            qrMetinTemel = 'This Product is Sample.{} Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
         else:
-            qrMetinTemel = 'Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
+            qrMetinTemel = '{} Safeline ASP-EI{} {} {} {} {} www.asparenerji.com'
 
         if (self.isStandart == 's' or self.isStandart == 'S'):  # Eldiven (standart/arc) belirlenmesi
             eldivenType = ''
@@ -119,7 +117,7 @@ class Functions:
         for i in seriNoListe:
             print(i)
             qr = qrcode.QRCode(version=1, box_size=7, border=1)
-            qrmetinson = qrMetinTemel.format(eldivenType, self.classNo, i, uretimTarih, testkv)
+            qrmetinson = qrMetinTemel.format(self.aciklama, eldivenType, self.classNo, i, uretimTarih, testkv)
             qr.add_data(qrmetinson)
             qr.make(fit=True)
             try:
